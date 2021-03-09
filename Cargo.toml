@@ -1,0 +1,16 @@
+[package]
+name = "clif_bench"
+version = "0.1.0"
+authors = ["Christoph Herzog <chris@theduke.at>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4.19", features = ["serde"] }
+serde = { version = "1.0.124", features = ["derive"] }
+serde_json = "1.0.64"
+tracing = "0.1.25"
+tracing-subscriber = { version = "0.2.16", features = ["fmt"] }
+url = { version = "2.2.1", features = ["serde"] }
+uuid = { version = "0.8.2", features = ["serde"] }
